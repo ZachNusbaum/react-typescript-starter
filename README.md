@@ -1,4 +1,18 @@
+# React-Typescript-Starter
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## This starter project includes...
+
+- Bootstrap v4 and Reactstrap
+
+- styled-components
+
+- Redux + Thunk + ReactRedux
+
+- FontAwesome
+
+- Axios for HTTP requests
 
 ## Available Scripts
 
