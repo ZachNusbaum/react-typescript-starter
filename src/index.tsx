@@ -1,4 +1,6 @@
 import React from 'react';
+import { BrowserRouter as Router } from 'react-router-dom';
+
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -11,7 +13,9 @@ import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <ReduxProvider store={store}>
-    <App />
+    <Router>
+      <App />
+    </Router>
   </ReduxProvider>,
   document.getElementById('root')
 );
